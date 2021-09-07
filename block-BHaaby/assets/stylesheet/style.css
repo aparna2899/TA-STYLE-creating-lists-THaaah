@@ -1,0 +1,230 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Custom Style*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  width: 40%;
+}
+header {
+  background-color: #f96115;
+}
+.navbar {
+  padding: 25px 0;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+section {
+  background-color: #d4cea7;
+}
+.box {
+  background-color: #005979;
+  color: #d4cea7;
+  width: 30%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 0;
+  height: 450px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  line-height: 1.6;
+  box-shadow: 8px 8px 12px 3px rgba(0, 0, 0, 0.5);
+}
+.box ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding: 0 30px;
+}
+.box-1 .ol-list-2 {
+  padding-left: 20px;
+}
+.box ul {
+  list-style: disc;
+  list-style-position: inside;
+  width: 100%;
+  padding: 0 30px;
+}
+.ul-list-1 .sub-menu {
+  list-style: square;
+  padding-left: 60px;
+  padding-right: 0;
+}
+.box-3 ul {
+  list-style: none;
+  list-style-image: url(../media/check-circle-solid.svg);
+  list-style-position: inside;
+  display: inline-block;
+  line-height: 2.2;
+}
+.box-3 span {
+  padding-left: 10px;
+}
+dt {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+dd {
+  font-size: 20px;
+  font-weight: 400;
+  color: #736750;
+  padding: 15px 0;
+  padding-left: 5%;
+  padding-bottom: 50px;
+}
+footer {
+  background-color: #242c22;
+  padding: 15px 0;
+}
+footer .navbar a {
+  color: #fffefa;
+}
